@@ -6,7 +6,7 @@ Reserve the functions `openModal([id])` and `closeModal([id])`
 Example:
 
 HTML:
-`<button id="open-modal-button">Open Modal</button>
+```<button id="open-modal-button">Open Modal</button>
 <div class="modal" id="my-modal">
   <div class="modal-overlay" id="my-modal-overlay">
     <div class="modal-content" id="my-modal-content">
@@ -17,10 +17,10 @@ HTML:
       <p>Modal content goes here.</p>
     </div>
   </div>
-</div>`
+</div>
 
-JAVASCRIPT:
-`// Show the modal when the user clicks the "Open Modal" button
+
+<script>// Show the modal when the user clicks the "Open Modal" button
 document.getElementById('open-modal-button').addEventListener('click', () => {
   openModal('my-modal');
 });
@@ -29,7 +29,4 @@ document.getElementById('open-modal-button').addEventListener('click', () => {
 document.getElementById('my-modal-close').addEventListener('click', () => {
   closeModal('my-modal');
 });
-`
-
-
-I hope this will be helpful!
+</script>
