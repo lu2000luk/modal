@@ -5,8 +5,8 @@ Reserve the functions `openModal([id])` and `closeModal([id])`
 
 Example:
 
-`html
-<button id="open-modal-button">Open Modal</button>
+HTML:
+`<button id="open-modal-button">Open Modal</button>
 <div class="modal" id="my-modal">
   <div class="modal-overlay" id="my-modal-overlay">
     <div class="modal-content" id="my-modal-content">
@@ -19,8 +19,8 @@ Example:
   </div>
 </div>`
 
-`javascript
-// Show the modal when the user clicks the "Open Modal" button
+JAVASCRIPT:
+`// Show the modal when the user clicks the "Open Modal" button
 document.getElementById('open-modal-button').addEventListener('click', () => {
   openModal('my-modal');
 });
@@ -31,6 +31,5 @@ document.getElementById('my-modal-close').addEventListener('click', () => {
 });
 `
 
-###############################################################################à
 
 I hope this will be helpful!
